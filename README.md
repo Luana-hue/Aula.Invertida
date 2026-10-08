@@ -1,5 +1,3 @@
-# Aula.Invertida
-
 <div align="center">
 
 ### CST EM ENGENHARIA DE SOFTWARE
