@@ -66,8 +66,6 @@ Um mesmo processo pode ter várias threads realizando tarefas diferentes. Nesse 
 
 Essa diferença ajuda a entender por que criar threads é mais leve do que criar vários processos. Quando um novo processo é criado, é necessário preparar uma estrutura independente para ele. Já as threads conseguem aproveitar recursos que pertencem ao processo em que estão sendo executadas, principalmente o espaço de memória compartilhado.
 
-No caso do sistema de venda de ingressos, que pode receber até 100.000 acessos simultâneos, trabalhar com várias tarefas concorrentes utilizando threads pode ter um custo menor do que criar um novo processo completo para cada atendimento. Além disso, a criação e a troca entre threads costumam exigir menos recursos do sistema.
-
 ### 1.2 Threads em Modo Usuário e Modo Núcleo
 
 As threads podem ser gerenciadas de formas diferentes. Nas **threads em Modo Usuário**, o controle é feito no espaço do próprio programa, normalmente por uma biblioteca ou pelo ambiente de execução. Nesse caso, o kernel não acompanha diretamente cada thread e trabalha principalmente com o processo.
