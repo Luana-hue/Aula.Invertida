@@ -88,7 +88,8 @@ No sistema de ingressos, isso pode ocorrer quando o Usuário A e o Usuário B cl
 
 Uma situação possível seria:
 
-<img width="442" height="477" alt="image" src="https://github.com/user-attachments/assets/a213e8b6-4da5-46fb-9bdf-40ababa3c06f" />
+<img width="449" height="402" alt="image" src="https://github.com/user-attachments/assets/d017700c-1db8-4863-8971-4445275a560b" />
+
 
 
 Se não existir nenhum controle para esse acesso simultâneo, o sistema pode acabar registrando duas compras para o mesmo assento. Isso causaria uma inconsistência nos dados e dois clientes poderiam receber a confirmação de compra para o mesmo lugar.
